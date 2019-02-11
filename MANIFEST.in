@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include sidemenu *.css
+recursive-include sidemenu *.csv
+recursive-include sidemenu *.html
+recursive-include sidemenu *.ico
+recursive-include sidemenu *.js
+recursive-include sidemenu *.json
+recursive-include sidemenu *.md
+recursive-include sidemenu *.png
+recursive-include sidemenu *.py
+recursive-include sidemenu *.svg
+recursive-include sidemenu *.txt
+recursive-exclude sidemenu *.pyc
